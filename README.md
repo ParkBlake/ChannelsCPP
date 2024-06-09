@@ -39,7 +39,7 @@ Before using the library, ensure you have the following installed:
 
 Clone the repository:
 
-git clone https://github.com/ParkBlake/cpp-channel-library.git
+[git clone https://github.com/ParkBlake/cpp-channel-library.git](https://github.com/ParkBlake/ChannelsCPP.git)
 
 ### Usage
 
