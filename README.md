@@ -107,6 +107,29 @@ int main() {
 
 }
 
+### New Features
+
+    Channels -
+
+    - Max Capacity: Allows specifying a maximum capacity for the channel.
+    - Try Receive: Similar to receive, but doesn't wait if the channel is empty.
+    - Clear Method: Clears the channel by removing all elements and notifies all waiting senders.
+    - Condition Variable: Added `cv_not_full_` condition variable to notify when the channel is not full.
+
+    Channels -
+
+    - Timeout for Receiving Operations: Added `receive_with_timeout` method to enable timeout functionality for receiving operations.
+    - Clear Method: Added `clear` method to remove all elements from the channel.
+    - Peek Method: Added `peek` method to view the next element in the channel without removing it.
+    - Size Method: Added `size` method to get the current size of the channel.
+
+    Buffered Channels -
+
+    - Timeout for Receiving Operations: Added `receive_with_timeout` method to enable timeout functionality for receiving operations.
+    - Clear Method: Added `clear` method to remove all elements from the channel.
+    - Peek Method: Added `peek` method to view the next element in the channel without removing it.
+    - Size Method: Added `size` method to get the current size of the channel.
+
 ### Contributing
 
 Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
